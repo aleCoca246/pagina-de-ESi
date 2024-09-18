@@ -1,0 +1,203 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Métodos Anticonceptivos</title>
+    <!-- Bootstrap CSS -->
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+    <!-- Estilos personalizados -->
+    <style>
+        body {
+            background-color: #f0f2f5;
+            font-family: Arial, sans-serif;
+        }
+        .header {
+            background-color: #007bff;
+            color: #fff;
+            padding: 1rem 0;
+            text-align: center;
+        }
+        .section {
+            padding: 3rem 0;
+        }
+        .section:nth-child(even) {
+            background-color: #e9ecef;
+        }
+        .section:nth-child(odd) {
+            background-color: #ffffff;
+        }
+        .card img {
+            height: 180px;
+            object-fit: cover;
+        }
+        .footer {
+            background-color: #343a40;
+            color: #fff;
+            padding: 1rem 0;
+            text-align: center;
+        }
+        .carousel-item img {
+            height: 400px;
+            object-fit: cover;
+        }
+        .carousel-caption {
+            background-color: rgba(0, 0, 0, 0.5);
+            padding: 1rem;
+            border-radius: 0.5rem;
+        }
+    </style>
+</head>
+<body>
+    <!-- Encabezado -->
+    <header class="header">
+        <h1>Métodos Anticonceptivos</h1>
+    </header>
+
+    <!-- Carrusel de Imágenes -->
+    <div id="carouselExampleCaptions" class="carousel slide">
+        <ol class="carousel-indicators">
+            <li data-target="#carouselExampleCaptions" data-slide-to="0" class="active"></li>
+            <li data-target="#carouselExampleCaptions" data-slide-to="1"></li>
+            <li data-target="#carouselExampleCaptions" data-slide-to="2"></li>
+        </ol>
+        <div class="carousel-inner">
+            <div class="carousel-item active">
+                <img src="https://www.datocms-assets.com/21281/1614168433-blogposttimagenonhormonalmethods.png?auto=format&dpr=0.47&w=1630text=Métodos+Anticonceptivos" class="d-block w-100" alt="Métodos Anticonceptivos">
+                <div class="carousel-caption d-none d-md-block">
+                    <h5>Bienvenida</h5>
+                    <p>Descubre diferentes métodos anticonceptivos y elige el que mejor se adapte a tus necesidades.</p>
+                </div>
+            </div>
+            <div class="carousel-item">
+                <img src="https://via.placeholder.com/1200x400?text=Métodos+de+Barrera" class="d-block w-100" alt="Métodos de Barrera">
+                <div class="carousel-caption d-none d-md-block">
+                    <h5>Métodos de Barrera</h5>
+                    <p>Protege contra el embarazo y enfermedades de transmisión sexual.</p>
+                </div>
+            </div>
+            <div class="carousel-item">
+                <img src="https://via.placeholder.com/1200x400?text=Métodos+Hormonales" class="d-block w-100" alt="Métodos Hormonales">
+                <div class="carousel-caption d-none d-md-block">
+                    <h5>Métodos Hormonales</h5>
+                    <p>Regula la ovulación con diferentes tipos de hormonas.</p>
+                </div>
+            </div>
+        </div>
+        <a class="carousel-control-prev" href="#carouselExampleCaptions" role="button" data-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="sr-only">Anterior</span>
+        </a>
+        <a class="carousel-control-next" href="#carouselExampleCaptions" role="button" data-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="sr-only">Siguiente</span>
+        </a>
+    </div>
+
+    <!-- Contenido Principal -->
+    <main class="container">
+        <!-- Métodos de Barrera -->
+        <section class="section">
+            <div class="container">
+                <h2 class="text-center">Métodos de Barrera</h2>
+                <div class="row">
+                    <div class="col-md-6">
+                        <div class="card">
+                            <img src="https://via.placeholder.com/500x300?text=Preservativo+Masculino" class="card-img-top" alt="Preservativo Masculino">
+                            <div class="card-body">
+                                <h5 class="card-title">Preservativo Masculino</h5>
+                                <p class="card-text">
+                                    El preservativo masculino se coloca sobre el pene erecto para evitar que el esperma entre en la vagina. Protege contra el embarazo y enfermedades de transmisión sexual.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-6">
+                        <div class="card">
+                            <img src="https://via.placeholder.com/500x300?text=Preservativo+Femenino" class="card-img-top" alt="Preservativo Femenino">
+                            <div class="card-body">
+                                <h5 class="card-title">Preservativo Femenino</h5>
+                                <p class="card-text">
+                                    El preservativo femenino se inserta en la vagina antes de la relación sexual. Ofrece protección contra el embarazo y las enfermedades de transmisión sexual.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Métodos Hormonales -->
+        <section class="section">
+            <div class="container">
+                <h2 class="text-center">Métodos Hormonales</h2>
+                <div class="row">
+                    <div class="col-md-6">
+                        <div class="card">
+                            <img src="https://via.placeholder.com/500x300?text=P%C3%ADldora+Anticonceptiva" class="card-img-top" alt="Píldora Anticonceptiva">
+                            <div class="card-body">
+                                <h5 class="card-title">Píldora Anticonceptiva</h5>
+                                <p class="card-text">
+                                    La píldora anticonceptiva contiene hormonas que previenen la ovulación. Se toma diariamente para mantener sus niveles hormonales estables.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-6">
+                        <div class="card">
+                            <img src="https://via.placeholder.com/500x300?text=Implante+Anticonceptivo" class="card-img-top" alt="Implante Anticonceptivo">
+                            <div class="card-body">
+                                <h5 class="card-title">Implante Anticonceptivo</h5>
+                                <p class="card-text">
+                                    El implante anticonceptivo es una pequeña varilla que se coloca bajo la piel del brazo. Libera hormonas que previenen la ovulación durante varios años.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Métodos Permanentes -->
+        <section class="section">
+            <div class="container">
+                <h2 class="text-center">Métodos Permanentes</h2>
+                <div class="row">
+                    <div class="col-md-6">
+                        <div class="card">
+                            <img src="https://via.placeholder.com/500x300?text=Ligadura+de+Trompas" class="card-img-top" alt="Ligadura de Trompas">
+                            <div class="card-body">
+                                <h5 class="card-title">Ligadura de Trompas</h5>
+                                <p class="card-text">
+                                    La ligadura de trompas es una cirugía que corta o sella las trompas de Falopio para evitar que el óvulo y el esperma se encuentren. Es un método permanente para mujeres que no desean tener más hijos.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-6">
+                        <div class="card">
+                            <img src="https://via.placeholder.com/500x300?text=Vasectom%C3%ADa" class="card-img-top" alt="Vasectomía">
+                            <div class="card-body">
+                                <h5 class="card-title">Vasectomía</h5>
+                                <p class="card-text">
+                                    La vasectomía es un procedimiento quirúrgico que corta y sella los conductos deferentes para evitar que el esperma se mezcle con el semen. Es un método permanente para hombres.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- Pie de Página -->
+    <footer class="footer">
+        <p>&copy; 2024 Métodos Anticonceptivos. Todos los derechos reservados.</p>
+    </footer>
+
+    <!-- Bootstrap JS and dependencies -->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.3/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</body>
+</html>
